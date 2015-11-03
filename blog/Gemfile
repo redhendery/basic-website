@@ -10,9 +10,15 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
+gem 'dotenv-rails'
+gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'omniauth-facebook'
-gem 'dotenv-rails'
+gem 'omniauth-google-oauth2'
+gem 'google-api-client', require: 'google/api_client'
+gem 'omniauth-instagram'
+gem 'twitter'
+gem 'instagram'
 
 group :development, :test do
   gem 'byebug'
